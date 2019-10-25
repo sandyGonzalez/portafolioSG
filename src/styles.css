@@ -27,3 +27,35 @@ body{
     height:70px;
     
 }
+
+/* Borde para guiarme */
+.border-prueba{
+ border: solid black;
+}
+.about-me{
+    border: solid black;
+}
+.photo{
+    
+    width: 150px;
+    height: 150px;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    border: solid black;
+   
+}
+.photo p{
+    border: solid black;
+    padding: auto;
+    padding: 0;
+}
+
+
+/* HABILIDADES */
+
+.skill-logo{
+    background-image: url('../img/HTML_logo_pgnAhoraSi.png');
+    height: 100%;
+    width: 100%;
+}
