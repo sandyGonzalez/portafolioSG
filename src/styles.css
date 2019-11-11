@@ -114,6 +114,8 @@ header nav{
 
 header nav li{
 	margin: 0 15px;
+	color: white;
+	text-decoration: none;
 }
 
 header nav li:first-child{
