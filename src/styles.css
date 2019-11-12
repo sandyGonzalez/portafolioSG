@@ -218,11 +218,11 @@ header nav li:last-child{
 
 /*  	about Section */
 
-/* 
+ 
 .about{
-	background-color: #fff;
+	background-color: white;
 }
- */
+ 
 .about .grid li{
 	padding: 20px;
 	height: 350px;
@@ -234,19 +234,19 @@ header nav li:last-child{
 	background-color: #333;
 }
 
-.about .grid li.small{
-	flex-basis: 40%;
+.about .grid li.img-proyecto{
+
+	flex-basis: 50%;
 }
 
-.about .grid li.large{
+/* .about .grid li.img-proyecto{
 	flex-basis: 60%;
-}
+} */
 
 
 @media (max-width: 1000px){
 
-	.about .grid li.small,
-	.about .grid li.large{
+	.about .grid li.img-proyecto{
 		flex-basis: 100%;
 	}
 
@@ -256,7 +256,7 @@ header nav li:last-child{
 /* Features Section */
 
 .skills{
-	background-color: black;
+	background-color: grey;
 }
 
 .skills .grid li{
@@ -267,7 +267,7 @@ header nav li:last-child{
 
 .skills  .grid li i{
     font-size: 50px;
-    color: #2196F3;
+    color: white;
     margin-bottom: 25px;
 }
 
@@ -312,7 +312,7 @@ header nav li:last-child{
 	background-color: black;
 }
 
-.contact form{
+/* .contact form{
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -328,20 +328,20 @@ header nav li:last-child{
 	margin-right: 30px;
 	font-size: 18px;
 	color: #555;
-}
+} */
 
-.contact form .btn{
+/* .contact form .btn{
 	padding: 18px 42px;
 }
-
+ */
 
 @media (max-width: 800px){
 
-	.contact form input{
+	/* .contact form input{
 		flex-basis: 100%;
 		margin: 0 0 20px 0;
 	}
-
+ */
 }
 
 
