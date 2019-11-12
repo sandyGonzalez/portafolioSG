@@ -96,7 +96,8 @@ header{
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	padding: 35px 100px 0;
+	padding: 35px 100px;
+	min-width: 50px;
 	 
 	background: linear-gradient(to right,
 	rgba(249,107,142,1),
