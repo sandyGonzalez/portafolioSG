@@ -96,7 +96,8 @@ header{
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	padding: 35px 100px 0;
+	padding: 35px 100px;
+	min-width: 50px;
 	 
 	background: linear-gradient(to right,
 	rgba(249,107,142,1),
@@ -114,6 +115,8 @@ header nav{
 
 header nav li{
 	margin: 0 15px;
+	color: white;
+	text-decoration: none;
 }
 
 header nav li:first-child{
@@ -214,13 +217,13 @@ header nav li:last-child{
 
 
 
-/*  	about Section */
+/* ABOUT*/
 
-/* 
+ 
 .about{
-	background-color: #fff;
+	background-color: white;
 }
- */
+ 
 .about .grid li{
 	padding: 20px;
 	height: 350px;
@@ -232,29 +235,27 @@ header nav li:last-child{
 	background-color: #333;
 }
 
-.about .grid li.small{
-	flex-basis: 40%;
+.about .grid li.img-proyecto{
+
+	flex-basis: 50%;
 }
 
-.about .grid li.large{
-	flex-basis: 60%;
-}
+
 
 
 @media (max-width: 1000px){
 
-	.about .grid li.small,
-	.about .grid li.large{
+	.about .grid li.img-proyecto{
 		flex-basis: 100%;
 	}
 
 }
 
 
-/* Features Section */
+/* SKILLS */
 
 .skills{
-	background-color: black;
+	background-color: grey;
 }
 
 .skills .grid li{
@@ -265,7 +266,7 @@ header nav li:last-child{
 
 .skills  .grid li i{
     font-size: 50px;
-    color: #2196F3;
+    color: white;
     margin-bottom: 25px;
 }
 
@@ -292,7 +293,6 @@ header nav li:last-child{
 
 }
 
-
 @media (max-width: 600px){
 
 	.skills  .grid li{
@@ -310,36 +310,10 @@ header nav li:last-child{
 	background-color: black;
 }
 
-.contact form{
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	flex-wrap: wrap;
-
-	max-width: 800px;
-	width: 80%;
-}
-
-.contact form input{
-	padding: 15px;
-	flex: 1;
-	margin-right: 30px;
-	font-size: 18px;
-	color: #555;
-}
-
-.contact form .btn{
-	padding: 18px 42px;
-}
-
 
 @media (max-width: 800px){
 
-	.contact form input{
-		flex-basis: 100%;
-		margin: 0 0 20px 0;
-	}
-
+	
 }
 
 
@@ -357,7 +331,6 @@ footer{
 	background-color: #414a4f;
 	padding: 60px 0;
 }
-
 footer ul{
 	display: flex;
 	margin-bottom: 25px;
