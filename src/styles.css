@@ -87,6 +87,14 @@ ul.grid{
 
  /* 	Header */
 
+ .nav-materialize{
+	  
+	background: linear-gradient(to right,
+	rgba(249,107,142,1),
+	rgba(218,103,230,1),
+	rgba(130,125,253,1));
+ }
+
 header{
 	position: absolute;
 	top: 0;
@@ -189,7 +197,6 @@ header nav li:last-child{
 	font: normal 28px 'Open Sans', sans-serif;
 	margin-bottom: 40px;
 }
-
 
 .hero a.btn{
 	padding: 20px 46px;

@@ -8,14 +8,39 @@
     <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
     <link rel = "stylesheet"href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css " > 
+       <!-- Compiled and minified CSS -->
+       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
 
+       <!-- Compiled and minified JavaScript -->
+       <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
    
 
 
     <title>Sandy Gonzalez</title>
 <body>
      <!-- EL HEADER -->
-    <header>
+     <nav class="nav-materialize">
+        <div class="nav-wrapper">
+          <a href="#!" class="brand-logo">Logo</a>
+          <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+          <ul class="right hide-on-med-and-down">
+            <li><a href="sass.html">Sobre mi</a></li>
+            <li><a href="badges.html">Habilidades</a></li>
+            <li><a href="collapsible.html">Proyectos</a></li>
+            <li><a href="mobile.html">Contacto</a></li>
+          </ul>
+        </div>
+      </nav>
+    
+      <ul class="sidenav" id="mobile-demo">
+        <li><a href="sass.html">Sobre mi</a></li>
+        <li><a href="badges.html">Habilidades</a></li>
+        <li><a href="collapsible.html">Proyectos</a></li>
+        <li><a href="mobile.html">Contacto</a></li>
+      </ul>
+              
+
+  <!--   <header>
         <h2>no Tengo logo aún</h2>
         <nav>
                 <li><a href="#">Sobre mi</a></li>
@@ -23,7 +48,7 @@
                 <li><a href="#">Proyectos</a></li>
                 <li><a href="#">Contacto</a></li>
         </nav>
-    </header>
+    </header> -->
 
     <section class="hero">
         <figure>
@@ -55,7 +80,7 @@
       <li class = "effect-zoom"> <i class ="icono devicon-github-plain"> </i > <h6 > GITHUB </h6 > </li >
    
     </ul >
-    
+
         
     </section>
 
@@ -69,7 +94,6 @@
         </ul>
 
     </section>
-
     <footer>
         <h3 class="title">Contacto</h3>
         <ul>
@@ -79,5 +103,7 @@
             <li></li>
         </ul>
     </footer>
+
+    <script src="app.js"></script>
 </body>
 </html>
