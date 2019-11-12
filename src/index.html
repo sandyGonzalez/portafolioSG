@@ -8,14 +8,39 @@
     <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
     <link rel = "stylesheet"href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css " > 
+       <!-- Compiled and minified CSS -->
+       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
 
+       <!-- Compiled and minified JavaScript -->
+       <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
    
 
 
     <title>Sandy Gonzalez</title>
 <body>
      <!-- EL HEADER -->
-    <header>
+     <nav class="nav-materialize">
+        <div class="nav-wrapper">
+          <a href="#!" class="brand-logo">Logo</a>
+          <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+          <ul class="right hide-on-med-and-down">
+            <li><a href="sass.html">Sobre mi</a></li>
+            <li><a href="badges.html">Habilidades</a></li>
+            <li><a href="collapsible.html">Proyectos</a></li>
+            <li><a href="mobile.html">Contacto</a></li>
+          </ul>
+        </div>
+      </nav>
+    
+      <ul class="sidenav" id="mobile-demo">
+        <li><a href="sass.html">Sobre mi</a></li>
+        <li><a href="badges.html">Habilidades</a></li>
+        <li><a href="collapsible.html">Proyectos</a></li>
+        <li><a href="mobile.html">Contacto</a></li>
+      </ul>
+              
+
+  <!--   <header>
         <h2>no Tengo logo aún</h2>
         <nav>
                 <li><a href="#">Sobre mi</a></li>
@@ -23,7 +48,7 @@
                 <li><a href="#">Proyectos</a></li>
                 <li><a href="#">Contacto</a></li>
         </nav>
-    </header>
+    </header> -->
 
     <section class="hero">
         <figure>
@@ -55,19 +80,50 @@
       <li class = "effect-zoom"> <i class ="icono devicon-github-plain"> </i > <h6 > GITHUB </h6 > </li >
    
     </ul >
+
         
     </section>
 
-    <section>
+    <section class="container-proyects">
         <h3 class="title">Proyectos</h3>
-        <ul>
-            <img class="img-proyecto" src="../img/pandemonium.png" alt="imagen">
-            <li class="img-proyecto" ><img src="../img/footlova.png" alt="imagen"></li>
-            <li class="img-proyecto"><img src="../img/pandemonium.png" alt="imagen"></li>
-            <li class="img-proyecto"><img src="../img/footlova.png" alt="imagen"></li>
-        </ul>
+        <div class="container-card">
+            <div class="box">
+              <div class="imgBx">
+                <img src="../img/pandemonium.png">
+              </div>
+              <div class="content-card">
+                <h3>Post title One</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+              </div>
+            </div>
+            <div class="box">
+              <div class="imgBx">
+                <img src="../img/footlova.png">
+              </div>
+              <div class="content-card">
+                <h3>Post title Two</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+              </div>
+            </div>
+            <div class="box">
+              <div class="imgBx">
+                <img src="../img/Pokeguia.png">
+              </div>
+              <div class="content-card">
+                <h3>Post title Three</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+              </div>
+            </div>
+          </div>
+
+
+       
 
     </section>
+
+
+
+
 
     <footer>
         <h3 class="title">Contacto</h3>
@@ -78,5 +134,7 @@
             <li></li>
         </ul>
     </footer>
+
+    <script src="app.js"></script>
 </body>
 </html>
