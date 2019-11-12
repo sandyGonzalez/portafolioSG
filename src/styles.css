@@ -262,6 +262,10 @@ header nav li:last-child{
 	width: 150px;
 	height: 150px;
 	border-radius: 80%;
+	border: solid linear-gradient(to right,
+	rgba(249,107,142,1),
+	rgba(218,103,230,1),
+	rgba(130,125,253,1)) 2px;
 }
 
 
