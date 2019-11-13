@@ -189,7 +189,9 @@ header nav li:last-child{
 }
  */
  .hero{
-	
+	 background-image: url("../img/annie-spratt-zA7I5BtFbvw-u");
+	 background-attachment: fixed;
+
  }
 .hero h1{
 	font: bold 60px 'Open Sans', sans-serif;
@@ -513,12 +515,18 @@ footer p a{
 	}
 
 }
+
+.contact{
+	padding-top: 0%
+}
 .contact-icons{
+	
 	display: flex;
 	justify-content: center;
 	align-content: center;
 	justify-content: space-around;
-	padding-left: 13px;
+	padding-top: 5%;
+	padding-bottom: 0%
 }
 .icons{
 	width: 50px;
